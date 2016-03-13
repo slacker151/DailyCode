@@ -25,6 +25,6 @@
   
   2016.Mar.12 ----- Binary Search                                                       - SS
   
-  2013.Mar.13 ----- Search in a sorted and rotated array                                - SS
+  2016.Mar.13 ----- Search in a sorted and rotated array                                - SS
   
   
