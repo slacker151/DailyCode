@@ -2416,92 +2416,92 @@
 
 
 //--------------------------------------------------------------------Mar 12th 2016 Code
-#include <iostream>
-#include <sstream>
-#include <fstream>
-#include <iomanip>
-#include <assert.h>
-#include <cstdlib>
-#include <string>
-#include <algorithm>
-#include <utility>
-#include <map>
-#include <limits.h>
+// #include <iostream>
+// #include <sstream>
+// #include <fstream>
+// #include <iomanip>
+// #include <assert.h>
+// #include <cstdlib>
+// #include <string>
+// #include <algorithm>
+// #include <utility>
+// #include <map>
+// #include <limits.h>
 
-bool IsSorted(int *arr, int size)
-{
-	bool resultA(true);
-	int ascending(INT_MIN);
-	bool resultD(true);
-	int decending(INT_MAX);
-
-	for(int i(0); i < size; ++i)
-	{
-		if(arr[i] < ascending && resultA == true)
-			resultA = false;
-		else
-			ascending = arr[i];
-
-		if(arr[i] > decending && resultD == true)
-			resultD = false;
-		else
-			decending = arr[i];
-	}
-
-	return resultA || resultD;
-}
-
-// int main(int argc, char *argv[])
+// bool IsSorted(int *arr, int size)
 // {
-// 	int arr1[] = {1, 2, 3, 4, 5}; //ascending sorted
-// 	int arr2[] = {5, 4, 3, 2, 0}; //decending sorted
-//  	int arr3[] = {3, 4, 1, 2, 0}; //unsorted
+// 	bool resultA(true);
+// 	int ascending(INT_MIN);
+// 	bool resultD(true);
+// 	int decending(INT_MAX);
 
-// 	int size1 = sizeof(arr1) / sizeof(arr1[0]);
-// 	int size2 = sizeof(arr2) / sizeof(arr2[0]);
-// 	int size3 = sizeof(arr3) / sizeof(arr3[0]);
+// 	for(int i(0); i < size; ++i)
+// 	{
+// 		if(arr[i] < ascending && resultA == true)
+// 			resultA = false;
+// 		else
+// 			ascending = arr[i];
 
-// 	std::cout << IsSorted(arr1, size1) << std::endl;
-// 	std::cout << IsSorted(arr2, size2) << std::endl;
-// 	std::cout << IsSorted(arr3, size3) << std::endl;
+// 		if(arr[i] > decending && resultD == true)
+// 			resultD = false;
+// 		else
+// 			decending = arr[i];
+// 	}
+
+// 	return resultA || resultD;
+// }
+
+// // int main(int argc, char *argv[])
+// // {
+// // 	int arr1[] = {1, 2, 3, 4, 5}; //ascending sorted
+// // 	int arr2[] = {5, 4, 3, 2, 0}; //decending sorted
+// //  	int arr3[] = {3, 4, 1, 2, 0}; //unsorted
+
+// // 	int size1 = sizeof(arr1) / sizeof(arr1[0]);
+// // 	int size2 = sizeof(arr2) / sizeof(arr2[0]);
+// // 	int size3 = sizeof(arr3) / sizeof(arr3[0]);
+
+// // 	std::cout << IsSorted(arr1, size1) << std::endl;
+// // 	std::cout << IsSorted(arr2, size2) << std::endl;
+// // 	std::cout << IsSorted(arr3, size3) << std::endl;
+
+// // 	return 0;
+// // }
+
+// bool BS(int *arr, int ele, int left, int right)
+// {
+// 	if(right >= left)
+// 	{
+// 		int mid = left + (right - left) / 2;
+		
+// 		if(arr[mid] == ele)
+// 		{
+// 			return 1;
+// 		}
+
+// 		if(arr[mid] > ele)
+// 			return BS(arr, ele, left, mid - 1);
+// 		else
+// 			return BS(arr, ele, mid + 1, right);
+// 	}
 
 // 	return 0;
 // }
 
-bool BS(int *arr, int ele, int left, int right)
-{
-	if(right >= left)
-	{
-		int mid = left + (right - left) / 2;
-		
-		if(arr[mid] == ele)
-		{
-			return 1;
-		}
 
-		if(arr[mid] > ele)
-			return BS(arr, ele, left, mid - 1);
-		else
-			return BS(arr, ele, mid + 1, right);
-	}
+// int main(int argc, char *argv[])
+// {
+// 	int arr[] = {2, 4, 5, 67, 344, 890};
+// 	int size = sizeof(arr) / sizeof(arr[0]);
 
-	return 0;
-}
+// 	if(IsSorted(arr, size))
+// 	{
+// 		std::cout << BS(arr, -12, 0, size - 1) << std::endl;
 
+// 	}
 
-int main(int argc, char *argv[])
-{
-	int arr[] = {2, 4, 5, 67, 344, 890};
-	int size = sizeof(arr) / sizeof(arr[0]);
-
-	if(IsSorted(arr, size))
-	{
-		std::cout << BS(arr, -12, 0, size - 1) << std::endl;
-
-	}
-
-	return 0;
-}
+// 	return 0;
+// }
 
 
 
