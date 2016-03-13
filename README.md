@@ -1,7 +1,5 @@
 # DailyCode
 
-This repo contains all of my daily coding exercises.
-
   2016.Feb.16-2016.Mar.11 ----- bubblesort template metaprogramming version             - Other
                           ----- LL basic ops revisit                                    - LL   
                           ----- code chef - online shopping                             - DP
