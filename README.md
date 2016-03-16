@@ -27,7 +27,12 @@
   
   2016.Mar.13 ----- Search in a sorted and rotated array                                - SS
   
-  2013.Mar.14 ----- Bubble sorted                                                       - SS
+  2016.Mar.14 ----- Bubble Sort                                                         - SS
+              ----- Insertion Sort                                                      - SS
+              ----- Selection Sort                                                      - SS
 
+  2016.Mar.15 ----- Merge Sort                                                          - SS
+              ----- Heap Sort                                                           - SS
+              ----- Quick Sort                                                          - SS
   
   

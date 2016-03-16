@@ -23,7 +23,7 @@ Problem 1 Description:
 	( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 	( 1 2 4 5 8 ) –> ( 1 2 4 5 8 )
 
-Solution 1 Description:
+Problem 1 Solution:
 
 	Clearly, there are array-length number of passes. For each pass, there are array-length - 1 number of comparisons(ascending and descending differences).
 
@@ -37,7 +37,7 @@ Problem 2 Description:
 
 	Insertion Sort: one of the simplest sorting algorithms out there. 
 
-Solution 2 Description:
+Problem 2 Solution:
 	
 	I do not find this algorithm quite as intuitive as selection sort, which is my favorite goto O(n^2) sorting algorithm.
 
@@ -46,7 +46,7 @@ Problem 3 Description:
 
 	Selection Sort: one of the simplest sorting algorithms out there. 
 
-Solution 3 Description:
+Problem 3 Solution:
 	
 	This is in my opinion the most intuitive O(n^2) time complexity sorting algorithm.
 	It just makes the most sense to me. 
