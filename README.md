@@ -34,5 +34,10 @@
   2016.Mar.15 ----- Merge Sort                                                          - SS
               ----- Heap Sort                                                           - SS
               ----- Quick Sort                                                          - SS
+
+  2016.Mar.16 ----- Find Kth largest/smallest element in a sorted list                  - SS
+
+  2016.Mar.17 ----- Find the pair in a sorted array whose sum is closest to x           - SS
+
   
   
