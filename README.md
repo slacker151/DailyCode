@@ -38,6 +38,11 @@
   2016.Mar.16 ----- Find Kth largest/smallest element in a sorted list                  - SS
 
   2016.Mar.17 ----- Find the pair in a sorted array whose sum is closest to x           - SS
+              ----- Sorted insert in a singly linked list                               - LL
+
+  2016.Mar.18 ----- Deleting a node in LL with certain constraints                      - LL
+
+  2016.Mar.20 -----  - LL
 
   
   
