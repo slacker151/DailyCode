@@ -1,4 +1,4 @@
-# DailyCode
+s# DailyCode
 
   2016.Feb.16-2016.Mar.11 ----- bubblesort template metaprogramming version             - Other
                           ----- LL basic ops revisit                                    - LL   
@@ -42,7 +42,7 @@
 
   2016.Mar.18 ----- Deleting a node in LL with certain constraints                      - LL
 
-  2016.Mar.20 -----  - LL
+  2016.Mar.20 ----- Comparing two strings represented as LL                             - LL
 
   
   
