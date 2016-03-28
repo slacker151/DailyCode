@@ -1,4 +1,4 @@
-s# DailyCode
+#DailyCode
 
   2016.Feb.16-2016.Mar.11 ----- bubblesort template metaprogramming version             - Other
                           ----- LL basic ops revisit                                    - LL   
@@ -44,5 +44,6 @@ s# DailyCode
 
   2016.Mar.20 ----- Comparing two strings represented as LL                             - LL
 
+  2016.Mar.27 ----- Add two numbers represented as LL                                   - LL
   
   
