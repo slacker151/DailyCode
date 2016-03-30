@@ -1,7 +1,7 @@
 # DailyCode
 
-  #### 2016.Feb.16-2016.Mar.11 
-  ---
+##### 2016.Feb.16-2016.Mar.11 
+---
 
                           ----- bubblesort template metaprogramming version             - Other
                           ----- LL basic ops revisit                                    - LL   
@@ -25,8 +25,7 @@
                           ----- ACM 2013 SFU problem A                                  - String
                           ----- ACM 2013 SFU problem B                                  - Other
                           ----- ACM 2013 SFU problem C                                  - DP
-  
-  ---
+---
 
   2016.Mar.12 ----- Binary Search                                                       - SS
   
