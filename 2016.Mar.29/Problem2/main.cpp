@@ -92,13 +92,35 @@ void SplitInHalf(Node *Head, Node **A, Node **B)
 	}
 }
 
+Node *Merge(Node *A, Node *B)
+{
+	Node *newNode = NULL;
+
+	if(A == NULL)
+		return B;
+	else if(B == NULL)
+		return A;
+
+	if(A->data <= B->data)
+	{
+		newNode = A;
+		newNode->next = Merge(A->next, B);
+	}
+	else
+	{
+		newNode = B;
+		newNode->next = Merge(A, B->next);
+	}
+	return newNode;
+}
+
 void MergeSort(Node **Head)
 {
 	Node *H = *Head;
 	Node *A = NULL;
 	Node *B = NULL;
 
-	if(*Head == NULL || (*Head)->next != NULL)
+	if(*Head == NULL || (*Head)->next == NULL)
 		return;
 
 	SplitInHalf(H, &A, &B);
@@ -106,23 +128,25 @@ void MergeSort(Node **Head)
 	MergeSort(&A);
 	MergeSort(&B);
 
-	//*Head = Merge(A, B);
+	*Head = Merge(A, B);
 }
 
 int main(int argc, char * argv[])
 {
+	//Declaration
 	Node *LL1(NULL);
 
-	for(int i(0); i < 10; ++i)
+	//Initialization
+	for(int i(10); i > 0; i--)
 		Insert(&LL1, i);
-
 	Display(LL1);
 
+	//Sorting
 	MergeSort(&LL1);
-
 	Display(LL1);
 
-
+	//Destruction
 	Delete(&LL1);
+
 	return 0;
 }

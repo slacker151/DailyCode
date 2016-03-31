@@ -32,4 +32,19 @@ Problem Solution:
 
 		Although, this method is way faster than any other methods, the memory cost could be quite pricy.
 
-	For the purpose of learning something new, I will proceed with the second method which is the merge sort way.
+	For the purpose of learning something new, I will proceed with the second method which is the merge sort way. 
+
+	I only got to learning merge sort on linked list. I saw how easy it is to apply the merge sort on linked list as the Merge() does it job - firstly creates a new node, then check if either linked lists have ran out of elements to compare, if so, return the other linked list as result. If it has not reached the stopping condition, then for ascending order, we say if LL1->data <= LL2->data, then assign the newNode with the smaller data, and assign newNode->next with Merge(LL1->next, LL2); on the contrary, we do the same of LL2->data is smaller than LL1->data. 
+
+	This is much easier than the typical preset array merge sort since everything is dynamically allocated the assigned, which avoids brute force assignments.
+
+	However, with such an ease, there is a cerain tradeoff - having to figure out the two starting nodes of the sub linked lists efficiently using two nodes for traversing, one traverses twice as fast as the other one very much lowers the time complexity of the linked list traversal.
+
+
+
+
+
+
+
+
+
