@@ -1,4 +1,4 @@
-# DailyCode
+s# DailyCode
 
 
 
@@ -89,10 +89,10 @@
               ----- Union and intersection linked list of two LLs                       - LL
 ---
 
+- 2016.Mar.30
 
-
-
-
+              ----- Detect and remove loop in a linked list                             - LL
+---
 
 
 
