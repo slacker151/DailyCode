@@ -1,4 +1,4 @@
-s# DailyCode
+# DailyCode
 
 
 
@@ -94,6 +94,10 @@ s# DailyCode
               ----- Detect and remove loop in a linked list                             - LL
 ---
 
+- 2016.Mar.31
+
+              ----- Merge Sort on a linked list                                         - LL & SS
+---
 
 
 
