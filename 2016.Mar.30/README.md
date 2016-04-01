@@ -42,22 +42,48 @@ Problem Solution:
 
 	Two Methods were introduced:
 
-	Simple way - one by one:
+	- Simple way - one by one:
 
 		1. Find a node inside of the loop
 		2. Starting from the beginning of the list, for each
-			element, cycle through the loop see if node->next is equal to that element.
+			element, cycle through the loop see if node->
+			next is equal to that element.
 		3 If so, make node->next = NULL;
 		4 If not, continue to the next node in list.
 
+	- Better way: 
 
-	Smarter way: 
+		This method involves both Floyd's Cycle Detection algorithm and the algo used to finding the mth-to-last element in a linked list, which is another coding challange that I have done.
 
-		To be updated ...
+		Procedures are as follow:
 
+			1. Using Floyd's Cycle Detection algo to find a	
+				node inside of the loop
+			2. Count the number of nodes, K, in the loop by	
+				counting the number of iterations starting 
+				from that node back to itself.
+			3. Prepare two nodes, Head and Kth element from 
+				Head. 
+			4. Iterated till both of their nexts become the 
+				same, then make the faster node's next NULL.
 
+		The tricky part of this algorithm has to go to the counting the number nodes in the loop.
 
+	- "Even better than better" way !?!?:
 
+		I personally don't quite agree with this method 
+		because I am quite convinced simply because it wouldn't always work, I think.
+
+		But here it is:
+
+			1. Using Floyd's Cycle Detection algo, find the 
+				node in the loop.
+			2. Assign the slow node to being the head.
+			3. Iterate both slow and fast at the same pace 
+				till fast->next == slow.
+			4. assign fast->next = NULL
+
+		Step 3 is the core of the alogrithm which is also the part I am really confused about.
 
 
 

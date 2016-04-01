@@ -84,6 +84,7 @@ void RemoveLoop(Node *Head, Node *LoopNode)
 	front->next = NULL;
 }
 
+// One-by-one bruteForce
 bool detectAndRemoveLoop(Node *Head)
 {
 	//If empty or 1-element list
@@ -110,6 +111,56 @@ bool detectAndRemoveLoop(Node *Head)
 	return false;
 }
 
+//Counting Nodes
+bool BetterDetectAndRemoveLoop(Node *Head)
+{
+	if(Head == NULL || Head->next == NULL)
+		return false;
+
+	Node *slow(Head);
+	Node *fast(Head);
+
+	while(fast && fast->next)
+	{
+		slow = slow->next;
+		fast = fast->next->next;
+
+		if(slow == fast)
+		{
+			Node *temp = slow;
+			int count(1);
+
+			while(temp->next != slow)
+			{
+				temp = temp->next;
+				count++;
+			}
+
+			Node *tempHead = Head;
+			Node *mthToHead = Head;
+
+			int index(1);
+			while(1)
+			{
+				if(index > count)
+				{
+					mthToHead = mthToHead->next;
+				}
+				tempHead = tempHead->next;
+				if(tempHead->next == mthToHead->next)
+				{
+					tempHead->next = NULL;
+					return true;
+				}
+
+				index++;
+			}
+		}
+	}
+
+	return false;
+}
+
 int main(int argc, char *argv[])
 {
 	Node *LL1(NULL);
@@ -130,8 +181,8 @@ int main(int argc, char *argv[])
 	//Making a loop
 	front->next = sixthNode;
 
-	bool res = detectAndRemoveLoop(LL1);
-
+	// bool res = detectAndRemoveLoop(LL1);
+	bool res = BetterDetectAndRemoveLoop(LL1);
 
 	Display(LL1);
 
