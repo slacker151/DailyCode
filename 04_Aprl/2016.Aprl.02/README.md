@@ -9,7 +9,11 @@ Problem Description:
 
 Problem Solution:
 
-	There is a quite simpel solution to this problem, traverse the whole linked list to determine the total number of nodes in the list. Next, generate a random number ranges from 0 to N - 1. Then traverse to the linked list with that index and return the node. Q.E.D.
+	There is a quite simpel solution to this problem, traverse the 
+	whole linked list to determine the total number of nodes in 
+	the list. Next, generate a random number ranges from 0 to N - 1
+	. Then traverse to the linked list with that index and return 
+	the node. Q.E.D.
 
 	How to select a random node with only one traverse??
 
@@ -17,7 +21,9 @@ Problem Solution:
 
 		There will be another topic mainly attributed to Resrvoir Sampling. 
 
-		However, instead of having multiple keys, there is only one key for this case, as we only need to get one random node in the linked list.
+		However, instead of having multiple keys, there is only 
+		one key for this case, as we only need to get one random 
+		node in the linked list.
 
 		The procedures are as follow:
 
@@ -31,4 +37,12 @@ Problem Solution:
 	
 		Thoughts on the reservoir algorithm:
 
-			Although it seems like there is a 1/N chances that a node can be selected, the N value varies for each node. As a result, the earlier node has a higher chance of getting selected compared to the nodes in the back of the list. Then I thought about it even more - although there is higher chance for the earlier nodes to be updated as the result, there is a also a higher chance for the result to be updated as other values along with the traversal. 
+			Although it seems like there is a 1/N chances that a 
+			node can be selected, the N value varies for each node.
+			As a result, the earlier node has a higher chance of 
+			getting selected compared to the nodes in the back of 
+			the list. Then I thought about it even more - although 
+			there is higher chance for the earlier nodes to be 
+			updated as the result, there is a also a higher chance 
+			for the result to be updated as other values along 
+			with the traversal. 
