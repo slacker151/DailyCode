@@ -9,7 +9,7 @@
 
 - 2016.Aprl.03
 
-              ----- Reservoir Sampling								                    - Math
+              ----- Reservoir Sampling								                    - Random
 ---
 
 - 2016.Aprl.04
