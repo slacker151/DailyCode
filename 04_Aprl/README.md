@@ -6,3 +6,13 @@
 
               ----- Randomly select a node from a singly linked list                    - LL & SS
 ---
+
+- 2016.Aprl.03
+
+              ----- Reservoir Sampling								                    - Math
+---
+
+- 2016.Aprl.04
+
+              -----                  
+---
