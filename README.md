@@ -111,7 +111,8 @@
 
 - 2016.Aprl.04
 
-              ----- BFT of a graph                                                      - GT                 
+              ----- BFT of a graph                                                      - GT
+              ----- DFT of a graph                                                      - GT
 ---
 
 
