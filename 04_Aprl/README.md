@@ -17,3 +17,13 @@
               ----- BFT of a graph														- GT
               ----- DFT of a graph														- GT
 ---
+
+- 2016.Aprl.05
+
+              ----- Dijkstra's Shortest Path Algorithm								    - GT
+---
+
+- 2016.Aprl.06
+
+              ----- Floyd Warshall's Shortest Paths for every pair of vertices          - GT
+---
