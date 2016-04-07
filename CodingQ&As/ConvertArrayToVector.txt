@@ -1,0 +1,6 @@
+What's the simplest way to convert array to vector?
+
+	Use the vecotr constructor that takes two iterators, note that pointers are valid iterators, and use the implicity convert from arrays to pointers:
+
+	int x[] = {1, 2, 3};
+	std::vector<int> v (x, x + sizeof(x) / sizeof(x[0]));
