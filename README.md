@@ -130,6 +130,11 @@
               ----- Union-Find Algorithm - Cycle detection in an undirected graph       - GT
 ---
 
+- 2016.Aprl.08
+
+              ----- Prim's Minimum Spanning Tree (MST)                                  - GT
+---
+
 
 
 
