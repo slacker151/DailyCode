@@ -37,3 +37,8 @@
 
               ----- Prim's Minimum Spanning Tree (MST)       							- GT
 ---
+
+- 2016.Aprl.10
+
+              ----- Kruskal's Minimum Spanning Tree (MST)                               - GT
+---
