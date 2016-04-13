@@ -42,3 +42,8 @@
 
               ----- Kruskal's Minimum Spanning Tree (MST)                               - GT
 ---
+
+- 2016.Aprl.12
+
+              ----- Topological Sort 					                                - GT
+---
