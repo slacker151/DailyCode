@@ -145,6 +145,10 @@
               ----- Topological Sort                                                    - GT
 ---
 
+- 2016.Aprl.14
+
+              ----- The minimum depth of a binary tree                                  - T
+---
 
 
 

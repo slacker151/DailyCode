@@ -9,18 +9,18 @@
 
 - 2016.Aprl.03
 
-              ----- Reservoir Sampling								                    - Random
+              ----- Reservoir Sampling                                                  - Random
 ---
 
 - 2016.Aprl.04
 
-              ----- BFT of a graph														- GT
-              ----- DFT of a graph														- GT
+              ----- BFT of a graph								    - GT
+              ----- DFT of a graph								    - GT
 ---
 
 - 2016.Aprl.05
 
-              ----- Dijkstra's Shortest Path Algorithm								    - GT
+              ----- Dijkstra's Shortest Path Algorithm					    - GT
 ---
 
 - 2016.Aprl.06
@@ -35,7 +35,7 @@
 
 - 2016.Aprl.08
 
-              ----- Prim's Minimum Spanning Tree (MST)       							- GT
+              ----- Prim's Minimum Spanning Tree (MST)       				    - GT
 ---
 
 - 2016.Aprl.10
@@ -45,5 +45,15 @@
 
 - 2016.Aprl.12
 
-              ----- Topological Sort 					                                - GT
+              ----- Topological Sort 					                  - GT
 ---
+
+- 2016.Aprl.14
+
+              ----- The minimum depth of a binary tree                                  - T
+---
+
+
+
+
+
