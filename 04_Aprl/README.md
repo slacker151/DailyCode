@@ -58,5 +58,8 @@
               ----- The maximum sum path of a binary tree                               - T
 ---
 
+- 2016.Aprl.18
 
+              ----- Check whether a given array is a Pre-Order traveral of a BST        - T
+---
 
