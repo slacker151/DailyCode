@@ -63,3 +63,7 @@
               ----- Check whether a given array is a Pre-Order traveral of a BST        - T
 ---
 
+- 2016.Aprl.19
+
+              ----- Check whether a binary tree is a full binary Tree                   - T
+---
