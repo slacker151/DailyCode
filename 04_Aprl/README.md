@@ -67,3 +67,8 @@
 
               ----- Check whether a binary tree is a full binary Tree                   - T
 ---
+
+- 2016.Aprl.20
+
+              ----- Bottom View of a binary tree                                        - T
+---
