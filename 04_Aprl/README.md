@@ -72,3 +72,8 @@
 
               ----- Bottom View of a binary tree                                        - T
 ---
+
+- 2016.Aprl.24
+
+              ----- Top View of a binary tree                                           - T
+---
