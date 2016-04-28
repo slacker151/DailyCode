@@ -175,6 +175,11 @@
               ----- Top View of a binary tree                                           - T
 ---
 
+- 2016.Aprl.25
+
+              ----- Remove nodes on root to leaf paths of length < K                    - T
+---
+
 
 
 
