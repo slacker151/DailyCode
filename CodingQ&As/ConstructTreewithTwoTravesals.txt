@@ -1,0 +1,19 @@
+If you are given two traversal sequences, can you construct 
+the binary tree?
+
+	It depends on what traversals are given. If one of the 
+	traversal methods is Inorder then the can be constructed,
+	otherwise not.
+
+	Therefore, following combinations can identify a tree.
+
+	InOrder & PreOrder
+	InOrder & PostOrder
+	InOrder & LevelOrder
+
+	And following do not
+
+	PostOrder & PreOrder
+	PreOrder & LevelOrder
+	PostOrder & LevelOrder
+	PreOrder & PostOrder & LevelOrder

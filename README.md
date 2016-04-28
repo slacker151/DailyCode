@@ -180,6 +180,15 @@
               ----- Remove nodes on root to leaf paths of length < K                    - T
 ---
 
+- 2016.Aprl.26
+
+              ----- Finding Lowest Common Anscestor two ways (recursive and iterative)  - T
+---
+
+- 2016.Aprl.27
+
+              ----- Check if a binary tree is subtree of another binary tree            - T
+---
 
 
 

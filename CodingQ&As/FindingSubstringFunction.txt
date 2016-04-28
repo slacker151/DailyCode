@@ -1,0 +1,14 @@
+
+char* strstr(const char *haystack, const char *needle)
+
+Description:
+
+	The C library function char *strstr(const char *haystack, const char 
+*needle) function finds the first occurrence of the substring needle in 
+the string haystack. The terminating '\0' characters are not compared.
+
+Returning Value:
+
+	This function returns a pointer to the first occurrence in haystack of
+any of the entire sequence of characters specified in needle, or a null 
+pointer if the sequence is not present in haystack.
