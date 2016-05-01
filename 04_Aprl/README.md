@@ -92,3 +92,8 @@
 
               ----- Check if a binary tree is subtree of another binary tree            - T
 ---
+
+- 2016.Aprl.30
+
+              ----- Reverse alternate levels of a perfect binary tree                   - T
+---
