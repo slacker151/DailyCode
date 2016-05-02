@@ -1,0 +1,19 @@
+
+To reverse a string or any STL-compatibel container, you can use std::
+reverse(). std::reverse() operates in place.
+
+Example Code:
+
+	#include <algorithm>
+	#include <iostream>
+	#include <string>
+
+	int main()
+	{
+	    std::string foo("foo");
+	    std::string copy(foo);
+	    std::cout << foo << '\n' << copy << '\n';
+
+	    std::reverse(copy.begin(), copy.end());
+	    std::cout << foo << '\n' << copy << '\n';
+	}

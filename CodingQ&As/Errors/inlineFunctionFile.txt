@@ -1,0 +1,42 @@
+
+Q:
+
+	"The only portable way of using templates at the moment is to 
+	implement them in header files by using inline functions"
+
+A:
+
+	It is not necessay to put the implementation in the header file.
+
+	The reason why template class needs to have its implementationi
+	within the header file is because when compiler creates a new 
+	class with type that the programmer specifies. Consequently,
+	the compiler needs to have access to the implementaiton of the
+	methods, to instantiate them with the template argument. If 
+	these implementations were not in the header, they wouldn't be 
+	accessible, and therefore the compiler would not be able to 
+	instantiate the template.
+
+	A common solution to this is to write the template declaration 
+	int the header file, then implement the class in an implemenation
+	file (for example .inl or .tpp), and include this implemenation
+	file at the end of the header. This way, implementation is still
+	seperated from declaration, but is accessible to the compiler.
+
+	Code Example:
+
+		// Foo.h
+		template <typename T>
+		struct Foo
+		{
+			void doSomething(T param);
+		};
+
+		#include "Foo.tpp"
+
+		// Foo.tpp
+		template <typename T>
+		void Foo<T>::doSomething(T param)
+		{
+			//implementation
+		}

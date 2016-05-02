@@ -1,0 +1,18 @@
+
+Unresolved external symbol 'symbol' referenced in function 'function'
+
+The linker could find a definition for external symbol "symbol" used in function 
+"function". There are many issures that can cause this errir. This topic will help you 
+identify the cause and find a solution.
+
+An external symbol is the declared name that you use in souce code to refer to 
+something tha is defined in another object or library file - for example, an external 
+function or global variable. The linker is responsible for resolveing all external 
+symbol references in each objection file when they are linked into an application or 
+DLL. If the linked can't find a matching definition for an external symbol in any of 
+the linked files, it generates LNK2019. This error can occur if the source code or 
+library file that has the definition of the symbol is not included in the build. It 
+can also occur if the name of the linker searches for does not mathc the name of the 
+symbol in the library or object file that defines it.
+
+
