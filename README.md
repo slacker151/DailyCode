@@ -195,6 +195,10 @@
               ----- Reverse alternate levels of a perfect binary tree                   - T
 ---
 
+- 2016.May.02
+
+              ----- Reversing an array without affecting special characters                - Str
+---
 
 
 
