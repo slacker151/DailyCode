@@ -1,0 +1,12 @@
+
+section 'section1' (offset) merged into 'section2' (offset) with different attributes
+
+The contents of one section werer merged into another, but the attributes of the two 
+sections are different. Your program may give unexpected results. For example, data 
+you wanted to be read only may now be in a wriable section.
+
+To resolve LNK4254, modify or remove the merge request.
+
+When targeting x86 machines and windows CE targets, the .CRT section is read-only. If 
+your code depends on previous behavior (.CRT sectionare read/write), you could see
+unexpected beahvior.

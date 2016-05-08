@@ -1,0 +1,5 @@
+CRT = C Run Time.
+
+It is support library that any program needs to get the job done. Stuff like strcpy() lives there. You get a '.CRT section' in your .obj file when your code contains global variable that need to be initiliazed before your program starts running. The CRT takes care of that. 
+
+That is nothing unusual. The problem is the linker didn't see the CRT getting linked into your progra,. You somehow wrote code that didn't depend on the CRT code, other than the initialization requirement.

@@ -1,0 +1,6 @@
+
+NO assert() calls will be EXECUTED when in RELEASE MODE compilation.
+
+The other day, I ran into a issue of a program in its release mode.
+
+Turns out, assert() function call get ignored when in release mode compilation.
