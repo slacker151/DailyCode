@@ -210,3 +210,7 @@
               ----- Count triplets with sum smaller than a given value                     - Str
 --- 
   
+- 2016.May.09
+
+              ----- Convert array into Zig-Zag fashion in O(n)                         - Str
+---
