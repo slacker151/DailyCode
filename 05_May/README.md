@@ -17,3 +17,8 @@
 
               ----- Convert array into Zig-Zag fashion in O(n)			                   - Str
 ---
+
+- 2016.May.10
+
+              ----- Generate all possible sorted arrays from two given sorted arrays	   - Str
+---
