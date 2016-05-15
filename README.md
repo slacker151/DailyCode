@@ -219,3 +219,8 @@
 
               ----- Generate all possible sorted arrays from two given sorted arrays     - Str
 ---
+
+- 2016.May.15
+
+              ----- Binary Heap Revisit                              - T
+---

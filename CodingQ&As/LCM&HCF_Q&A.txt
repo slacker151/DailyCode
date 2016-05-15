@@ -1,0 +1,58 @@
+
+Factor and Multiples: 
+
+	All the numbers that divide a number completely, without leaving 
+	any remainder, are called factors of that number. For example, 24
+	is completely divisible by 1, 2, 3, 4, 6, 8, 24. Each of these
+	numbers is called a factor of 24 and 24 is called a multiple of 
+	each of each numbers.
+
+LCM (Least Common Multiple):
+
+	The least number which is exactly divisible by each of the given 
+	numbers is called the least common multiple of those numbers. For
+	example, amongest 3, 31, and 62. The LCM of these two numbers 
+	would be 2 * 3 * 31 = 186.
+
+	To find the LCM of the given numbers, we express each number as a 
+	product of prime numbers. The product highest power of the prime 
+	numbers that appear in prime factorization of any of the numbers
+	gives us the LCM.
+
+HCF (Highest Common Factor):
+
+	The largest number that divides two or more number is the highest
+	common factor for those numbers. For example, 30 (2 x 3 x 5), 36 
+	(2 x 2 x 3 x 3), 42 (2 x 3 x 7), 45 (3 x 3 x 5). 3 is the largest number that divides each of these numbers, and hence, is the HCF
+	for these numbers. HCF is also known as Greatest Common Divisor
+
+
+Questions that uses alot of LCM is "work and wage" type of questions.
+
+
+Q1: 
+	To complete a work, a person A takes 10 days and another 
+	person B takes 15 days. If they work together, in how much time will they complete the work ?
+
+A1: 
+	Let the total work be LCM (10, 15) = 30 units
+	=> A’s efficiency = 30/10 = 3 units / day
+	=> B’s efficiency = 30/15 = 2 units / day
+	Combined efficiency of A and B = 3+2 = 5 units / day
+	=> In one day, A and B working together can finish of 5 units of 
+	work, out of the given 30 units.
+	Therefore, time taken to complete total work = 30 / 5 = 6 days
+
+
+Q2 : 
+	Two friends A and B working together can complete an assignment in 4 days. If A can do the assignment alone in 12 days, in how many days can B alone do the assignment ?
+
+A2 : 
+	Let the total work be LCM (4, 12) = 12
+	=> A’s efficiency = 12/12 = 1 unit / day
+	=> Combined efficiency of A and B = 12/4 = 3 units / day
+	Therefore, B’s efficiency = Combined efficiency of A and B – A’s
+	efficiency = 2 units / day
+	So, time taken by B to complete the assignment alone = 12/2 = 6 
+	days
+

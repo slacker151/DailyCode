@@ -1,0 +1,79 @@
+Types of Numbers:
+
+	1. Int		 	: 0, 1, ... 100, ...
+	2. Natural	 	: 1, 2, ... 100, ...
+	3. Whole	 	: 0, 1, ... 100, ...
+	4. Prime	 	: numbers greater than 1 which have only two 
+					   factors - itself and one. 2, 3, 53, 67, 191,...
+	5. Composite 	: numbers greater than 1 which are not prime 
+					   numbers
+
+
+Important Points on Prime Numbers:
+
+	1. 1 is neither prime number, nor composite number
+	2. 2 is the only even prime number
+	3. There are 25 prime numbers under 100. 
+	4. To check if a number p is a prime number, firstly, find number
+		n such that n is the largest natural number which satisfies 
+		n^2 <= p; next, check if p is divisible by any of the prime
+		numbers less or equal to n ? not a prime : yes a prime
+	5. Co-prime: Two numbers 'a' and 'b' are called co-prime if their
+		highest common factor(HCF) is 1.
+
+
+Divisiblility Tests:
+	
+	1. Divisiblility by 2: all even numbers
+	2. Divisiblility by 3: if sum of all digits is divisible by 3
+	3. Divisiblility by 4: if the last two digits are divisible by 4
+	4. Divisiblility by 5: if the last digit is 0 or 5
+	5. Divisiblility by 6: if number is both divisible by 2 and 3
+	6. Divisiblility by 8: if the last three digits is divisible by 8
+	7. Divisiblility by 9: if sum of all digits is divisible by 9
+
+Division Theorem:
+
+	1. Divident: (divisor x quoient) + remainder
+	2. (x^n – a^n) is divisible by (x – a) and (x + a) for all n
+		because x^2 – a^2 = (x – a)(x + a)
+	3. (x^n – a^n) is only divisible by (x + a) for all odd values of
+		n because x^3 + a^3 = (x + a) (x^2 + a^2 – xa)
+
+
+Question:
+
+Q1. When a number is successively divided by 2, 3, 7, we get 1, 2, 3 
+	as the remainder respectively. What is the smallest such number?
+
+A1. Think in terms of a input ->processes ->output. Now assume the 
+	output to be 1, and reversely derive what the input is. 65.
+
+
+Q2. When a number is successively divided by 2, 4, 8, we get 1, 1, 0
+	as the remainder respectively. What is the smallest such number?
+
+A2. See Q1 for approach. 67
+
+
+Q3. Question 3 : What would be the maximum value of ‘B’ in the 	
+	following equation :
+
+		  1 2 B
+		+ B 4 C
+		+ C 6 7
+		--------
+		1 0 3 5
+		--------
+
+A3. This question is quite simple, using algbra, B+C = 8, maximize B
+	minimize C, B = 8 & C = 0
+
+
+Q4. Which of the following are prime numbers ?
+	
+		(i)   247
+		(ii)  397
+		(iii) 423
+
+A4. This question is really straightforward, follow the rule.
