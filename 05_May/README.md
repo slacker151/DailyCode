@@ -27,3 +27,8 @@
 
               ----- Binary Heap Revisit	   												   - T
 ---
+
+- 2016.May.17
+
+              ----- Huffman's Data Compression Revisit                                     - DC
+---
