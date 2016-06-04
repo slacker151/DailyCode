@@ -1,0 +1,25 @@
+Template Method Pattern:
+
+
+General Description of Template Method:
+
+	By making the interface functions non-virtual, however, delegating the work to non-public virtual functions, which could be customized polymorphically, the program gets the benefits of virtual functions, yet to lose the stability and encapsulation of the program.
+
+Benefits of the Template Method:
+	1. Base class has complete control of its interface and policy, 
+		and can enforce interface pre-conditions and post-conditions, 
+		insert instrumentation, and do any similar work all in a 
+		single convenient reusable place – the non-virtual interface 
+		function. The promotes good class design because it lets the 
+		base class enforce the substitutability compliance of derived 
+		classes to whatever extent enforcement makes sense. 
+	2. When we’ve better separated interface and implementation, we 
+		are free to make each tale the form it naturally wants to 
+		take instead of trying to find a compromise that forces then 
+		to look the same. For example, notice that in Example 2 we‘ve 
+		incidentally decided that it make more sense for our users to 
+		see a single process() while allowing more flexible 
+		customization in two parts, DoProcessPhase1() and 
+		DoProcessPhase2().
+	3. It’s much more difficult to start with a public virtual 
+		function and later try to wrap it for other purposes

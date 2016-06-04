@@ -1,0 +1,13 @@
+Herb's Notes:
+
+Guideline #1: Prefer to make interfaces non-virtual, using template 
+				method.
+
+Guideline #2: Prefer to make virtual functions private.
+
+Guideline #3: Only if derived classes need to invoke the base 
+				implementation of virtual function, make the virtual 
+				function protected
+ 
+Guideline #4: A base class destructor should be either public and 
+				virtual, or protected and nonvirutal.
