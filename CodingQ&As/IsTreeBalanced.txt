@@ -1,0 +1,10 @@
+This boils down to a cold-stone definition, just memorize it!!
+
+Definition:
+
+	A balanced tree tree is defined to be a tree such that no two 
+	leaf nodes differ in distance from the root(depth) by more than one.
+
+To determine whether a tree is balanced or not, compare the difference 
+between the minDepth and maxDepth of the tree. If the difference is
+larger than 1, then is not balanced.

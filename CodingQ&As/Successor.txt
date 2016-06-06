@@ -1,0 +1,8 @@
+Successor:
+
+	The successor of a node is the next smallest node that is larger than the given node
+
+	How to find it in a BST:
+		If the given node has right child, (if the right child has left, then the leftmost child of the right child node is the succesor, else the right child is the successor).
+
+		Else recursively call with the node's parent node.
